@@ -53,9 +53,11 @@ export const HeroSection = () => {
           {/* BOTÃO */}
           {/* Mobile: Ordem 2 (Fica embaixo). Largura 100% (w-full). */}
           <div className="order-2 md:order-1 flex justify-center md:justify-start w-full md:w-auto pt-2">
+            <a href="https://pay.hotmart.com/H101872044L?off=hepk5krt" target='blank'>
              <button className="w-full md:w-auto bg-[#D9D9D9] hover:bg-white text-[#384E40] text-xs font-bold py-4 px-10 uppercase tracking-[0.2em] transition-colors duration-300 shadow-md border border-transparent hover:border-[#384E40]/20">
               Inscreva- se Agora
             </button>
+            </a>
           </div>
 
           {/* TEXTO DESCRITIVO */}
