@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function FaqSection() {
   return (
-    <section className="bg-white py-8 px-4 md:px-8">
+    <section className="bg-white py-8 px-4 md:px-8 hidden md:block">
       <div className="mx-auto max-w-5xl">
         <p className="text-center text-4xl font-bold text-gray-900 pb-12">
           FAQ

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function FinalFaqSection() {
   return (
-    <section className="bg-white py-16 px-4 md:px-8">
+    <section className="bg-white py-16 px-4 md:px-8 hidden md:block">
       <div className="mx-auto max-w-5xl">
         <div className="space-y-6">
           {/* FAQ Item 1 */}

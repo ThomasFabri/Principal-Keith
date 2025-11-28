@@ -1,9 +1,11 @@
+import React from 'react';
 import { HeroSection } from '../components/HeroSection';
 import { IntroSection } from '../components/IntroSection';
 import { ModulesSection } from '../components/ModulesSection';
 import { FaqSection } from "@/components/faq-section"
 import { FinalFaqSection } from "@/components/final-faq-section"
 import { FooterCTA } from '../components/FooterCTA';
+import { FAQMobile } from '@/components/FAQMobile';
 
 export default function LandingPage() {
   return (
@@ -13,6 +15,7 @@ export default function LandingPage() {
       <ModulesSection />
       <FaqSection />
       <FinalFaqSection />
+      <FAQMobile />
       <FooterCTA />
     </main>
   );
